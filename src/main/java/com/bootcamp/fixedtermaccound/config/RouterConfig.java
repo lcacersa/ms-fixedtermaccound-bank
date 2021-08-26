@@ -31,7 +31,6 @@ public class RouterConfig {
                 .andRoute(POST("/api/fixedTermAccound"), fixedTermAccoundHandler::newFixedTermAccound)
                 .andRoute(PUT("/api/fixedTermAccound/{id}"), fixedTermAccoundHandler::updateFixedTermAccound)
                 .andRoute(DELETE("/api/fixedTermAccound/{id}"), fixedTermAccoundHandler::deleteFixedTermAccound);
-
     }
 
 }
